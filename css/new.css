@@ -1,0 +1,92 @@
+.btn-danger {
+    color: #fff;
+    background-color: #f9b12f;
+    border-color: #f8b12f;
+    background: -webkit-linear-gradient(top,#ffb93a 0,#f3ab26 100%);
+}
+.new-st-1{
+    text-align:center;margin-bottom:10px;
+}
+.new-st-2{
+    color: rgb(255, 0, 0); font-weight: bold; text-decoration: underline;
+}
+.new-st-3{
+    border-bottom: 1px solid #DDD; padding-bottom: 7px; margin-bottom: 7px;
+}
+.new-li{
+    display: inline-block
+}
+.facebook-comments .loaded{
+    padding: 20px 0;margin-top: 50px;
+    max-width: 730px!important;
+}
+.new-st-4{
+    max-width: 400px;
+}
+.new-st-5{
+    text-decoration: none; color:white;
+}
+#push-comments #push__submit{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    outline: none;
+    margin-right: auto;
+}
+.fbtext img{
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+    left: auto;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+}
+.comment-block{
+    max-width: 760px!important;
+    display: block;
+}
+/* .comments.row>.row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+} */
+.comments{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.header-top{
+    position: fixed;
+    width: 100%;
+    height: 8px;
+    background-color: transparent;
+    z-index: 99;
+    left: 0;
+    top: 0;
+}
+.main-menu li a, .main-menu li.here a {
+    box-sizing: content-box;
+}
+@media screen and (max-width:767px){
+    .comments{
+        margin-left: 0; 
+        margin-right: 0;
+    }
+    .fbtext{
+        overflow-wrap: break-word;
+    }
+}
